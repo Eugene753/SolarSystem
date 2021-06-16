@@ -15,8 +15,21 @@ public class Main {
 		Feron.Radius="7874241548784124m/2";
 		Feron.Temperature="100000000000000000000f";
 
+
 		Planet1 pitaro=new Planet1();
+
 		pitaro.Radius="54540124154";
 		pitaro.Size="very small";
+
+		System.out.println(pitaro.Radius);
+		System.out.println(pitaro.Size);
+
+		Planet2 pitaro2=new Planet2();
+
+		pitaro2.Radius="54540124154";
+		pitaro2.Size="very small";
+
+		System.out.println(pitaro2.Radius);
+		System.out.println(pitaro2.Size);
     }
 }
